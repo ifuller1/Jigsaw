@@ -14,6 +14,7 @@ const dllPlugin = pkg.dllPlugin;
 // PostCSS plugins
 const cssnext = require('postcss-cssnext');
 const postcssFocus = require('postcss-focus');
+const postcssFlexbox = require('postcss-flexbox');
 const postcssReporter = require('postcss-reporter');
 
 const plugins = [
@@ -47,6 +48,7 @@ module.exports = require('./webpack.base.babel')({
 
   // Process the CSS with PostCSS
   postcssPlugins: [
+    postcssFlexbox,
     postcssFocus(), // Add a :focus to every :hover
     cssnext({ // Allow future CSS features to be used, also auto-prefixes the CSS...
       browsers: ['last 2 versions', 'IE > 10'], // ...based on this browser list

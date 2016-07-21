@@ -3,7 +3,13 @@
  *
  * App container styles
  */
-
 .container {
   display: block;
+  box: vertical;
+  box-item: flex-1;
+}
+
+.appSpan {
+  box: vertical;
+  height: 100%;
 }

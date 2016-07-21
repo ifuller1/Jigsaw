@@ -12,8 +12,8 @@
  */
 
 import React from 'react';
-
 import styles from './styles.css';
+import AppHeader from '../../components/AppHeader'
 
 export default class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
@@ -23,9 +23,12 @@ export default class App extends React.Component { // eslint-disable-line react/
 
   render() {
     return (
-      <div className={styles.container}>
-        {this.props.children}
-      </div>
+      <span className={styles.appSpan}>
+        <AppHeader/>
+        <div className={styles.container}>
+          {this.props.children}
+        </div>
+      </span>
     );
   }
 }

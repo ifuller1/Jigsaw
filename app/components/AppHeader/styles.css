@@ -1,0 +1,41 @@
+.appHeader {
+  bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 4px 0px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.870588);
+  /*display: flex;*/
+  /*height: 64px;*/
+  left: 0px;
+  position: relative;
+  right: 0px;
+  top: 0px;
+  z-index: 1100;
+  column-rule-color: rgba(0, 0, 0, 0.870588);
+  perspective-origin: 328.5px 32px;
+  transform-origin: 328.5px 32px;
+  background: rgb(0, 188, 212) none repeat scroll 0% 0% / auto padding-box border-box;
+  border: 0px none rgba(0, 0, 0, 0.870588);
+  font: normal normal normal normal 15px / 24px Lato, sans-serif;
+  outline: rgba(0, 0, 0, 0.870588) none 0px;
+  padding: 0px 24px;
+  transition: all 0.45s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+}
+
+.appTitle {
+  color: rgb(255, 255, 255);
+  /*height: 64px;*/
+  min-height: auto;
+  min-width: auto;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /*width: 729px;*/
+  column-rule-color: rgb(255, 255, 255);
+  perspective-origin: 364.5px 32px;
+  transform-origin: 364.5px 32px;
+  border: 0px none rgb(255, 255, 255);
+  flex: 1 1 0%;
+  font: normal normal normal normal 24px / 64px Lato, sans-serif;
+  margin: 0px;
+  outline: rgb(255, 255, 255) none 0px;
+  overflow: hidden;
+}
